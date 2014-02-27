@@ -2,8 +2,8 @@ namespace java org.lecturenotes
 namespace js org.lecturenotes
 
 struct Subscribtion {
-	1: i32 idUser
-	2: i32 idLecture
+	1: i32 userID
+	2: i32 lectureID
 }
 
 struct Lecture {
