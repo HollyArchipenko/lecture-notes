@@ -24,3 +24,9 @@ enum SEMESTER{
      AUTUMN
      SPRING
 }
+
+struct Teacher{
+	1: string name
+	2: string organizationBelongs
+	3: string title
+}
