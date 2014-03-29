@@ -1,0 +1,21 @@
+PUT/{:id} //changeProfile
+
+POST /users/add //addNewUser
+    params:
+        login
+        password
+        
+
+POST /addNewLecture
+
+POST users/{:id}/subscriptions 
+    params:
+        userId
+        lectureId
+
+DELETE /remove/{type}
+    type may be 
+    'lecture'       //Delete incorrect lecture
+    'subscription'  //Unsubscribe
+    
+GET /lecture?id=lectureId //Returns lecture
