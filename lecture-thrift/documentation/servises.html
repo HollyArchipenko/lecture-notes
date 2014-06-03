@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: servises</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: servises</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>servises</td><td><a href="#Svc_Subscriptions">Subscriptions</a><br/>
+<ul>
+<li><a href="#Fn_Subscriptions_getAllSubscriptions">getAllSubscriptions</a></li>
+<li><a href="#Fn_Subscriptions_subscript">subscript</a></li>
+<li><a href="#Fn_Subscriptions_unsubscript">unsubscript</a></li>
+</ul>
+<a href="#Svc_LectureNotes">LectureNotes</a><br/>
+<ul>
+<li><a href="#Fn_LectureNotes_addImagesToLecture">addImagesToLecture</a></li>
+<li><a href="#Fn_LectureNotes_createLecture">createLecture</a></li>
+<li><a href="#Fn_LectureNotes_getLecture">getLecture</a></li>
+<li><a href="#Fn_LectureNotes_removeImagesFromLecture">removeImagesFromLecture</a></li>
+<li><a href="#Fn_LectureNotes_removeLecture">removeLecture</a></li>
+</ul>
+<a href="#Svc_User">User</a><br/>
+<ul>
+<li><a href="#Fn_User_addNewUser">addNewUser</a></li>
+<li><a href="#Fn_User_changeProfile">changeProfile</a></li>
+<li><a href="#Fn_User_getProfile">getProfile</a></li>
+</ul>
+<a href="#Svc_Like">Like</a><br/>
+<ul>
+<li><a href="#Fn_Like_setLike">setLike</a></li>
+<li><a href="#Fn_Like_unsetLike">unsetLike</a></li>
+</ul>
+<a href="#Svc_Filters">Filters</a><br/>
+<ul>
+<li><a href="#Fn_Filters_getCourses">getCourses</a></li>
+<li><a href="#Fn_Filters_getFaculties">getFaculties</a></li>
+<li><a href="#Fn_Filters_getLecturers">getLecturers</a></li>
+<li><a href="#Fn_Filters_getSemesters">getSemesters</a></li>
+<li><a href="#Fn_Filters_getSubjects">getSubjects</a></li>
+<li><a href="#Fn_Filters_getUniversities">getUniversities</a></li>
+<li><a href="#Fn_Filters_getYears">getYears</a></li>
+</ul>
+</td>
+<td></td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Services">Services</h2>
+<h3 id="Svc_Subscriptions">Service: Subscriptions</h3>
+<div class="definition"><h4 id="Fn_Subscriptions_subscript">Function: Subscriptions.subscript</h4>
+<pre><code>bool</code> subscript(<code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user,
+               <code>string</code> lectureId)
+    throws <code><a href="exceptions.html#Struct_UserNotFound">exceptions.UserNotFound</a></code>, <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>
+</pre></div><div class="definition"><h4 id="Fn_Subscriptions_unsubscript">Function: Subscriptions.unsubscript</h4>
+<pre><code>bool</code> unsubscript(<code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user,
+                 <code>string</code> lectureId)
+    throws <code><a href="exceptions.html#Struct_UserNotFound">exceptions.UserNotFound</a></code>, <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>
+</pre></div><div class="definition"><h4 id="Fn_Subscriptions_getAllSubscriptions">Function: Subscriptions.getAllSubscriptions</h4>
+<pre><code>list&lt;<code>string</code>&gt;</code> getAllSubscriptions(<code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user)
+    throws <code><a href="exceptions.html#Struct_UserNotFound">exceptions.UserNotFound</a></code>
+</pre></div><h3 id="Svc_LectureNotes">Service: LectureNotes</h3>
+<div class="definition"><h4 id="Fn_LectureNotes_createLecture">Function: LectureNotes.createLecture</h4>
+<pre><code>string</code> createLecture(<code><a href="types.html#Struct_Course">types.Course</a></code> course,
+                     <code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user)
+    throws <code><a href="exceptions.html#Struct_CourseExist">exceptions.CourseExist</a></code>, <code><a href="exceptions.html#Struct_UserHasNoAccess">exceptions.UserHasNoAccess</a></code>
+</pre></div><div class="definition"><h4 id="Fn_LectureNotes_addImagesToLecture">Function: LectureNotes.addImagesToLecture</h4>
+<pre><code>string</code> addImagesToLecture(<code>string</code> lectureId,
+                          <code><a href="types.html#Typedef_Images">types.Images</a></code> images,
+                          <code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user)
+    throws <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>, <code><a href="exceptions.html#Struct_UserHasNoAccess">exceptions.UserHasNoAccess</a></code>
+</pre></div><div class="definition"><h4 id="Fn_LectureNotes_removeImagesFromLecture">Function: LectureNotes.removeImagesFromLecture</h4>
+<pre><code>string</code> removeImagesFromLecture(<code>string</code> lectureId,
+                               <code><a href="types.html#Typedef_Images">types.Images</a></code> images,
+                               <code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user)
+    throws <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>, <code><a href="exceptions.html#Struct_UserHasNoAccess">exceptions.UserHasNoAccess</a></code>
+</pre></div><div class="definition"><h4 id="Fn_LectureNotes_removeLecture">Function: LectureNotes.removeLecture</h4>
+<pre><code>bool</code> removeLecture(<code>string</code> lectureId,
+                   <code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user)
+    throws <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>, <code><a href="exceptions.html#Struct_UserHasNoAccess">exceptions.UserHasNoAccess</a></code>
+</pre></div><div class="definition"><h4 id="Fn_LectureNotes_getLecture">Function: LectureNotes.getLecture</h4>
+<pre><code><a href="types.html#Struct_Lecture">types.Lecture</a></code> getLecture(<code>string</code> lectureId)
+    throws <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>
+</pre></div><h3 id="Svc_User">Service: User</h3>
+<div class="definition"><h4 id="Fn_User_addNewUser">Function: User.addNewUser</h4>
+<pre><code>string</code> addNewUser(<code>string</code> name,
+                  <code>string</code> email,
+                  <code>string</code> password)
+    throws <code><a href="exceptions.html#Struct_UserExist">exceptions.UserExist</a></code>
+</pre></div><div class="definition"><h4 id="Fn_User_getProfile">Function: User.getProfile</h4>
+<pre><code><a href="types.html#Struct_User">types.User</a></code> getProfile(<code>string</code> userEmail)
+    throws <code><a href="exceptions.html#Struct_UserNotFound">exceptions.UserNotFound</a></code>
+</pre></div><div class="definition"><h4 id="Fn_User_changeProfile">Function: User.changeProfile</h4>
+<pre><code>string</code> changeProfile(<code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user,
+                     <code><a href="types.html#Struct_ChangeUser">types.ChangeUser</a></code> data)
+    throws <code><a href="exceptions.html#Struct_UserNotFound">exceptions.UserNotFound</a></code>
+</pre></div><h3 id="Svc_Like">Service: Like</h3>
+<div class="definition"><h4 id="Fn_Like_setLike">Function: Like.setLike</h4>
+<pre><code>bool</code> setLike(<code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user,
+             <code>string</code> lectureId)
+    throws <code><a href="exceptions.html#Struct_UserNotFound">exceptions.UserNotFound</a></code>, <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>, <code><a href="exceptions.html#Struct_LikeAlreadySet">exceptions.LikeAlreadySet</a></code>
+</pre></div><div class="definition"><h4 id="Fn_Like_unsetLike">Function: Like.unsetLike</h4>
+<pre><code>bool</code> unsetLike(<code><a href="types.html#Struct_Credentials">types.Credentials</a></code> user,
+               <code>string</code> lectureId)
+    throws <code><a href="exceptions.html#Struct_UserNotFound">exceptions.UserNotFound</a></code>, <code><a href="exceptions.html#Struct_LectureNotFound">exceptions.LectureNotFound</a></code>, <code><a href="exceptions.html#Struct_LikeNotSet">exceptions.LikeNotSet</a></code>
+</pre></div><h3 id="Svc_Filters">Service: Filters</h3>
+<div class="definition"><h4 id="Fn_Filters_getYears">Function: Filters.getYears</h4>
+<pre><code>list&lt;<code>i32</code>&gt;</code> getYears()
+</pre></div><div class="definition"><h4 id="Fn_Filters_getUniversities">Function: Filters.getUniversities</h4>
+<pre><code>list&lt;<code>string</code>&gt;</code> getUniversities(<code>i32</code> year)
+</pre></div><div class="definition"><h4 id="Fn_Filters_getFaculties">Function: Filters.getFaculties</h4>
+<pre><code>list&lt;<code>string</code>&gt;</code> getFaculties(<code>i32</code> year,
+                          <code>string</code> university)
+</pre></div><div class="definition"><h4 id="Fn_Filters_getCourses">Function: Filters.getCourses</h4>
+<pre><code>list&lt;<code>i32</code>&gt;</code> getCourses(<code>i32</code> year,
+                     <code>string</code> university,
+                     <code>string</code> faculty)
+</pre></div><div class="definition"><h4 id="Fn_Filters_getSemesters">Function: Filters.getSemesters</h4>
+<pre><code>list&lt;<code>i32</code>&gt;</code> getSemesters(<code>i32</code> year,
+                       <code>string</code> university,
+                       <code>string</code> faculty,
+                       <code>i32</code> course)
+</pre></div><div class="definition"><h4 id="Fn_Filters_getSubjects">Function: Filters.getSubjects</h4>
+<pre><code>list&lt;<code>string</code>&gt;</code> getSubjects(<code>i32</code> year,
+                         <code>string</code> university,
+                         <code>string</code> faculty,
+                         <code>i32</code> course,
+                         <code>i32</code> semester)
+</pre></div><div class="definition"><h4 id="Fn_Filters_getLecturers">Function: Filters.getLecturers</h4>
+<pre><code>list&lt;<code>string</code>&gt;</code> getLecturers(<code>i32</code> year,
+                          <code>string</code> university,
+                          <code>string</code> faculty,
+                          <code>i32</code> course,
+                          <code>i32</code> semester,
+                          <code>string</code> subject)
+</pre></div></div></body></html>

@@ -1,0 +1,31 @@
+В данной нереляционной БД есть три таблицы: User, Lectures, LikedSubscripted. Подробнее о каждой:
+
+1) User
+CREATE TABLE User (
+  email text PRIMARY KEY,
+  password text,
+  type text,
+  image text 
+);
+
+2) Lecture
+CREATE TABLE Lecture (
+   lectureId text PRIMARY KEY,
+   holderTitle text,
+   holderName text,
+   organizationBelongs text,
+   subject text,
+   year int,
+   isAutumn boolean,
+   courseNumber int,
+   university text, 
+   imageCatalog text
+);
+
+3) LikedSubscripted
+CREATE TABLE LikedSubscripted (
+   userEmail text PRIMARY KEY,
+   lectureId text,
+   isLiked boolean,
+   isSubscripted boolean
+); //В данной таблицы присутствует явная денормализация: объединены сущности подписок и проставленных лайков.

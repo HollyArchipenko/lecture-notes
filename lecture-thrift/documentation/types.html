@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<title>Thrift module: types</title></head><body>
+<div class="container-fluid">
+<h1>Thrift module: types</h1>
+<table class="table-bordered table-striped table-condensed"><thead><th>Module</th><th>Services</th><th>Data types</th><th>Constants</th></thead>
+<tr>
+<td>types</td><td></td>
+<td><a href="#Struct_ChangeUser">ChangeUser</a><br/>
+<a href="#Struct_Course">Course</a><br/>
+<a href="#Struct_Credentials">Credentials</a><br/>
+<a href="#Struct_Holder">Holder</a><br/>
+<a href="#Typedef_Image">Image</a><br/>
+<a href="#Typedef_Images">Images</a><br/>
+<a href="#Struct_Lecture">Lecture</a><br/>
+<a href="#Struct_Page">Page</a><br/>
+<a href="#Struct_PasswordChange">PasswordChange</a><br/>
+<a href="#Struct_Subscription">Subscription</a><br/>
+<a href="#Enum_TYPE">TYPE</a><br/>
+<a href="#Struct_User">User</a><br/>
+</td>
+<td></code></td>
+</tr></table>
+<hr/><h2 id="Enumerations">Enumerations</h2>
+<div class="definition"><h3 id="Enum_TYPE">Enumeration: TYPE</h3>
+<br/><table class="table-bordered table-striped table-condensed">
+<tr><td><code>ADMINISTRATOR</code></td><td><code>0</code></td><td>
+</td></tr>
+<tr><td><code>USER</code></td><td><code>1</code></td><td>
+</td></tr>
+<tr><td><code>GUEST</code></td><td><code>2</code></td><td>
+</td></tr>
+</table></div>
+<hr/><h2 id="Typedefs">Type declarations</h2>
+<div class="definition"><h3 id="Typedef_Image">Typedef: Image</h3>
+<p><strong>Base type:</strong>&nbsp;<code>string</code></p>
+</div>
+<div class="definition"><h3 id="Typedef_Images">Typedef: Images</h3>
+<p><strong>Base type:</strong>&nbsp;<code>list&lt;<code><a href="types.html#Typedef_Image">Image</a></code>&gt;</code></p>
+</div>
+<hr/><h2 id="Structs">Data structures</h2>
+<div class="definition"><h3 id="Struct_Holder">Struct: Holder</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>holderId</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>title</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>3</td><td>name</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>4</td><td>organizationBelongs</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_Course">Struct: Course</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>subject</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>year</td><td><code>i64</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>3</td><td>holder</td><td><code><a href="types.html#Struct_Holder">Holder</a></code></td><td></td><td>default</td><td></td></tr>
+<tr><td>4</td><td>isAutumn</td><td><code>bool</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>5</td><td>courseNumber</td><td><code>byte</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>6</td><td>university</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_Lecture">Struct: Lecture</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>lectureId</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>course</td><td><code><a href="types.html#Struct_Course">Course</a></code></td><td></td><td>default</td><td></td></tr>
+<tr><td>3</td><td>catalog</td><td><code><a href="types.html#Typedef_Images">Images</a></code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_Subscription">Struct: Subscription</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>userEmail</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>courseId</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_Page">Struct: Page</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>id</td><td><code>i32</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>image</td><td><code><a href="types.html#Typedef_Image">Image</a></code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_User">Struct: User</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>type</td><td><code><a href="types.html#Enum_TYPE">TYPE</a></code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>userEmail</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_PasswordChange">Struct: PasswordChange</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>oldPass</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>newPass</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_ChangeUser">Struct: ChangeUser</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>userEmail</td><td><code>string</code></td><td></td><td>optional</td><td></td></tr>
+<tr><td>2</td><td>password</td><td><code><a href="types.html#Struct_PasswordChange">PasswordChange</a></code></td><td></td><td>optional</td><td></td></tr>
+</table><br/></div><div class="definition"><h3 id="Struct_Credentials">Struct: Credentials</h3>
+<table class="table-bordered table-striped table-condensed"><thead><th>Key</th><th>Field</th><th>Type</th><th>Description</th><th>Requiredness</th><th>Default value</th></thead>
+<tr><td>1</td><td>userEmail</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+<tr><td>2</td><td>password</td><td><code>string</code></td><td></td><td>default</td><td></td></tr>
+</table><br/></div></div></body></html>

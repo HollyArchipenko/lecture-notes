@@ -1,0 +1,21 @@
+<html ng-app="domainApp">
+<head>
+<script src="scripts/angular.js"></script>
+<script src="scripts/angular-resource.js"></script>
+<script src="scripts/app.js"></script>
+</head>
+<body>
+	<h1>Person</h1>
+	<div ng-controller="userEmail">
+		<input ng-model="userEmail" placeholder="Enter user email"/>&nbsp;Person name: {{loadedUserEmail}}&nbsp;
+		<input type="button" value="Load another name" ng-click="loadUser()"/> 
+	</div>
+	<h1>Add lection</h1>
+	<div ng-controller="like">
+		<input ng-model="userEmail" placeholder="Email"/>
+		<input ng-model="userPassword" placeholder="Password"/>
+		<input ng-model="lectureId" placeholder="lectureId"/>
+		<input type="button" value="Like me!" ng-click="like()"/> 
+	</div>
+</body>
+</html>
