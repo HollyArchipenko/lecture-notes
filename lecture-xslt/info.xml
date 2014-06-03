@@ -1,0 +1,577 @@
+<html>
+    <body>
+        <table><tbody>
+            <tr>	<td><p>1</p>
+            </td>	<td><p>Балашевич Денис Иванович</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>2</p>
+            </td>	<td><p>Баташов Владислав Александрович</p>
+            </td>	<td><p/>
+            </td>	<td><p>16/18</p>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p>9/9</p>
+            </td>	<td><p>4/4</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>3</p>
+            </td>	<td><p>Булах Денис Игоревич</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>4/4</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>4</p>
+            </td>	<td><p>Грачев Станислав Дмитриевич</p>
+            </td>	<td><p>1/</p>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p>4/0</p>
+            </td>	<td><p>2/2</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>5</p>
+            </td>	<td><p>Дайлид Катерина Николаевна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>6</p>
+            </td>	<td><p>Забелова Екатерина Сергеевна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>3/3</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>7</p>
+            </td>	<td><p>Зайцева Ксения Алексеевна</p>
+            </td>	<td><p>10/</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>8</p>
+            </td>	<td><p>Игнатик Алексей Олегович</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>4/4</p>
+            </td>	<td><p>14/14</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>9</p>
+            </td>	<td><p>Королева Анастасия Юрьевна</p>
+            </td>	<td><p>1/</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>10</p>
+            </td>	<td><p>Лимонтов Денис Евгеньевич</p>
+            </td>	<td><p/>
+            </td>	<td><p>8/0</p>
+            </td>	<td><p>1/1</p>
+            </td>	<td><p>10/10</p>
+            </td>	<td><p>5/5</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>12/12</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>11</p>
+            </td>	<td><p>Михеенок Федор Сергеевич</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>12</p>
+            </td>	<td><p>Неровня Наталья Александровна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>13</p>
+            </td>	<td><p>Новикова Виктория Юрьевна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>14</p>
+            </td>	<td><p>Одноочко Павел Викторович</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>15</p>
+            </td>	<td><p>Павлович Юлия Сергеевна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p>4/4</p>
+            </td>	<td><p>12/12</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>16</p>
+            </td>	<td><p>Паньков Игорь Петрович</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>17</p>
+            </td>	<td><p>Петровский Александр Михайлович</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>18</p>
+            </td>	<td><p>Поболь Павел Валерьевич</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p>4/0</p>
+            </td>	<td><p>8/8</p>
+            </td>	<td><p>2/2</p>
+            </td>	<td><p>7/7</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>19</p>
+            </td>	<td><p>Попов Иван Андреевич</p>
+            </td>	<td><p/>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>20</p>
+            </td>	<td><p>Русецкий Максим Сергеевич</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>21</p>
+            </td>	<td><p>Рыбакова Ольга Игоревна</p>
+            </td>	<td><p/>
+            </td>	<td><p>18/18</p>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>4/4</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>22</p>
+            </td>	<td><p>Рыжков Александр Андреевич</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>23</p>
+            </td>	<td><p>Саванович Елизавета Борисовна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>24</p>
+            </td>	<td><p>Санько Дарья Вадимовна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>2/2</p>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p>7/7</p>
+            </td>	<td><p>7/7</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>25</p>
+            </td>	<td><p>Сенюк Александра Александровна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>26</p>
+            </td>	<td><p>Торшина Алевтина Андреевна </p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>27</p>
+            </td>	<td><p>Филонец Полина Юрьевна</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>2/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>28</p>
+            </td>	<td><p>Шабуневич Алексей Владимирович</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>29</p>
+            </td>	<td><p>Эпштейн Александра</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>1/1</p>
+            </td>	<td><p>1/1</p>
+            </td>	<td><p/>
+            </td>	<td><p>1/0</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+            <tr>	<td><p>30</p>
+            </td>	<td><p>Язубец Степа Николаевич</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p>4/4</p>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td>	<td><p/>
+            </td></tr>
+        </tbody></table>
+        <p/>
+    </body>
+</html>
